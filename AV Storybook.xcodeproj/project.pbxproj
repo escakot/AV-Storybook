@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		D102CC171F1987530024EA52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D102CC161F1987530024EA52 /* main.m */; };
 		D102CC1A1F1987530024EA52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D102CC191F1987530024EA52 /* AppDelegate.m */; };
-		D102CC1D1F1987530024EA52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D102CC1C1F1987530024EA52 /* ViewController.m */; };
 		D102CC201F1987530024EA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D102CC1E1F1987530024EA52 /* Main.storyboard */; };
 		D102CC221F1987530024EA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D102CC211F1987530024EA52 /* Assets.xcassets */; };
 		D102CC251F1987530024EA52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D102CC231F1987530024EA52 /* LaunchScreen.storyboard */; };
+		D102CC2E1F1987B90024EA52 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D102CC2D1F1987B90024EA52 /* DataStore.m */; };
+		D102CC311F1988A70024EA52 /* StoryPartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D102CC301F1988A70024EA52 /* StoryPartViewController.m */; };
+		D102CC341F198B610024EA52 /* StoryPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D102CC331F198B610024EA52 /* StoryPageViewController.m */; };
+		D102CC361F1BC7090024EA52 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = D102CC351F1BC7090024EA52 /* Data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		D102CC161F1987530024EA52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D102CC181F1987530024EA52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D102CC191F1987530024EA52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D102CC1B1F1987530024EA52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D102CC1C1F1987530024EA52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D102CC1F1F1987530024EA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D102CC211F1987530024EA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D102CC241F1987530024EA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D102CC261F1987530024EA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D102CC2C1F1987B90024EA52 /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		D102CC2D1F1987B90024EA52 /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
+		D102CC2F1F1988A70024EA52 /* StoryPartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryPartViewController.h; sourceTree = "<group>"; };
+		D102CC301F1988A70024EA52 /* StoryPartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryPartViewController.m; sourceTree = "<group>"; };
+		D102CC321F198B610024EA52 /* StoryPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryPageViewController.h; sourceTree = "<group>"; };
+		D102CC331F198B610024EA52 /* StoryPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryPageViewController.m; sourceTree = "<group>"; };
+		D102CC351F1BC7090024EA52 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +66,15 @@
 		D102CC141F1987530024EA52 /* AV Storybook */ = {
 			isa = PBXGroup;
 			children = (
-				D102CC181F1987530024EA52 /* AppDelegate.h */,
-				D102CC191F1987530024EA52 /* AppDelegate.m */,
-				D102CC1B1F1987530024EA52 /* ViewController.h */,
-				D102CC1C1F1987530024EA52 /* ViewController.m */,
+				D102CC2C1F1987B90024EA52 /* DataStore.h */,
+				D102CC2D1F1987B90024EA52 /* DataStore.m */,
+				D102CC2F1F1988A70024EA52 /* StoryPartViewController.h */,
+				D102CC301F1988A70024EA52 /* StoryPartViewController.m */,
+				D102CC321F198B610024EA52 /* StoryPageViewController.h */,
+				D102CC331F198B610024EA52 /* StoryPageViewController.m */,
 				D102CC1E1F1987530024EA52 /* Main.storyboard */,
+				D102CC351F1BC7090024EA52 /* Data */,
 				D102CC211F1987530024EA52 /* Assets.xcassets */,
-				D102CC231F1987530024EA52 /* LaunchScreen.storyboard */,
-				D102CC261F1987530024EA52 /* Info.plist */,
 				D102CC151F1987530024EA52 /* Supporting Files */,
 			);
 			path = "AV Storybook";
@@ -74,6 +83,10 @@
 		D102CC151F1987530024EA52 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D102CC231F1987530024EA52 /* LaunchScreen.storyboard */,
+				D102CC261F1987530024EA52 /* Info.plist */,
+				D102CC181F1987530024EA52 /* AppDelegate.h */,
+				D102CC191F1987530024EA52 /* AppDelegate.m */,
 				D102CC161F1987530024EA52 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,6 +152,7 @@
 			files = (
 				D102CC251F1987530024EA52 /* LaunchScreen.storyboard in Resources */,
 				D102CC221F1987530024EA52 /* Assets.xcassets in Resources */,
+				D102CC361F1BC7090024EA52 /* Data in Resources */,
 				D102CC201F1987530024EA52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D102CC1D1F1987530024EA52 /* ViewController.m in Sources */,
+				D102CC2E1F1987B90024EA52 /* DataStore.m in Sources */,
+				D102CC311F1988A70024EA52 /* StoryPartViewController.m in Sources */,
 				D102CC1A1F1987530024EA52 /* AppDelegate.m in Sources */,
 				D102CC171F1987530024EA52 /* main.m in Sources */,
+				D102CC341F198B610024EA52 /* StoryPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

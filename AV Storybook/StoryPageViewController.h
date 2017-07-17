@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StoryPageViewController.h
 //  AV Storybook
 //
 //  Created by Errol Cheong on 2017-07-14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface StoryPageViewController : UIPageViewController
 
 
 @end
-
